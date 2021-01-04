@@ -6,7 +6,7 @@ Given: Two DNA strings s and t (each of length at most 1kbp).
 Return: All locations of t as substring of s.
 """
 
-with open("datasets/rosalind_subs.txt") as dataset:
+with open("../datasets/rosalind_subs.txt") as dataset:
     s, t = dataset.read().split()
 
 pos = []
